@@ -1,0 +1,9 @@
+md5: 947443542ae68988943fb602a450656b
+cmd: wget -P data https://github.com/b2wdigital/b2w-reviews01/raw/master/B2W-Reviews01.csv
+wdir: ..
+outs:
+- md5: bee0e065dee3735e5b1ec42832e611bd
+  path: data/B2W-Reviews01.csv
+  cache: true
+  metric: false
+  persist: false
