@@ -1,5 +1,5 @@
 md5: f6fb97d69a3799eb1f5c528c4026e395
-cmd: ls pipelines
+cmd: ls pipeline
 deps:
 - md5: 6d605a3d2247716b951f545222d5bdbd.dir
   path: mlruns
