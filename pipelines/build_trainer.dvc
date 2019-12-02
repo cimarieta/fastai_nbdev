@@ -1,0 +1,14 @@
+md5: 4d0d9a36173aff134a30cd55d96f55f7
+cmd: nbdev_build_lib --fname notebooks/02_trainer.ipynb
+wdir: ..
+deps:
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: nlp_b2w_reviews/__init__.py
+- md5: 60e8156a68682e906d6958a32a9d4399
+  path: notebooks/02_trainer.ipynb
+outs:
+- md5: e6d60a68686f1f7d1a298e39734c2eb3
+  path: nlp_b2w_reviews/trainer.py
+  cache: true
+  metric: false
+  persist: false
