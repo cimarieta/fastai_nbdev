@@ -1,0 +1,14 @@
+md5: 3d6076ac538c46c38e34160f85201b93
+cmd: mkdir -p models && python nlp_b2w_reviews/trainer.py
+wdir: ..
+deps:
+- md5: e6d60a68686f1f7d1a298e39734c2eb3
+  path: nlp_b2w_reviews/trainer.py
+- md5: b422c1415692eb61c8eb4d0544ebc192
+  path: data/train.csv
+outs:
+- md5: 8a12bef39144a553e7dc482866f19568
+  path: models/sentiment_analyzer.joblib
+  cache: true
+  metric: false
+  persist: false
