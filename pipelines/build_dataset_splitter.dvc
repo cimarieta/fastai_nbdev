@@ -1,0 +1,14 @@
+md5: d4fb16778dfa34caad7a1c4c589bf390
+cmd: nbdev_build_lib --fname notebooks/01_dataset_splitter.ipynb
+wdir: ..
+deps:
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: nlp_b2w_reviews/__init__.py
+- md5: 552a1144e0e755c88439601921317fc5
+  path: notebooks/01_dataset_splitter.ipynb
+outs:
+- md5: 7582a6b52eacd7a1c9afb3742f867058
+  path: nlp_b2w_reviews/dataset_splitter.py
+  cache: true
+  metric: false
+  persist: false
