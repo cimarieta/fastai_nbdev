@@ -1,3 +1,5 @@
+dvc
+nbdev
 pandas
 mlflow
 joblib
