@@ -12,7 +12,19 @@ pip install -r requirements.txt
 mlflow server -p 8889 -h 0.0.0.0
 ```
 
-## Passos para gerar a pipeline
+## Rode a pipeline
+
+```bash
+dvc repro
+```
+
+## Visualize a pipeline
+
+```bash
+dvc pipeline show --ascii
+```
+
+# Passos para gerar a pipeline
 
 ```bash
 mkdir -p pipeline
@@ -51,10 +63,4 @@ dvc run -d nlp_b2w_reviews/evaluator.py -d data/test.csv -d models/sentiment_ana
 
 dvc run -d mlruns -f Dvcfile \
     "ls pipeline"
-```
-
-## Visualize a pipeline
-
-```bash
-dvc pipeline show --ascii
 ```
