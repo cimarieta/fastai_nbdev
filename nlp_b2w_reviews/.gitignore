@@ -2,3 +2,4 @@
 /preprocess.py
 /dataset_splitter.py
 /trainer.py
+/evaluator.py
