@@ -1,0 +1,16 @@
+md5: c0940485bb165ef860df510613d9d95c
+cmd: python nlp_b2w_reviews/evaluator.py
+wdir: ..
+deps:
+- md5: 19b516b93db565de681816221307b19f
+  path: nlp_b2w_reviews/evaluator.py
+- md5: 807b58fcf8829df010c67352ab9df436
+  path: data/test.csv
+- md5: 8a12bef39144a553e7dc482866f19568
+  path: models/sentiment_analyzer.joblib
+outs:
+- md5: 6d605a3d2247716b951f545222d5bdbd.dir
+  path: mlruns
+  cache: true
+  metric: false
+  persist: false
