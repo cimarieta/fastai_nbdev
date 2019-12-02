@@ -1,0 +1,9 @@
+md5: f0ea16649dce45ad1f1a3b74e70a9495
+cmd: nbdev_build_lib
+wdir: ..
+outs:
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: nlp_b2w_reviews/__init__.py
+  cache: true
+  metric: false
+  persist: false
