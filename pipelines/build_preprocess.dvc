@@ -1,0 +1,14 @@
+md5: 3253c835cc518b1e13c2569330cd43d5
+cmd: nbdev_build_lib --fname notebooks/00_preprocess.ipynb
+wdir: ..
+deps:
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: nlp_b2w_reviews/__init__.py
+- md5: 6a9dec2f52e49b400c3de3016a02d395
+  path: notebooks/00_preprocess.ipynb
+outs:
+- md5: 4c6d1945e35feb038ac6e1813e23c17d
+  path: nlp_b2w_reviews/preprocess.py
+  cache: true
+  metric: false
+  persist: false
