@@ -1,0 +1,19 @@
+md5: a8fd2b4f8c0932fac88bb535d21d6129
+cmd: python nlp_b2w_reviews/dataset_splitter.py
+wdir: ..
+deps:
+- md5: 7582a6b52eacd7a1c9afb3742f867058
+  path: nlp_b2w_reviews/dataset_splitter.py
+- md5: 752b78d2765069523f3e117002cfb050
+  path: data/normalized_reviews.csv
+outs:
+- md5: b422c1415692eb61c8eb4d0544ebc192
+  path: data/train.csv
+  cache: true
+  metric: false
+  persist: false
+- md5: 807b58fcf8829df010c67352ab9df436
+  path: data/test.csv
+  cache: true
+  metric: false
+  persist: false
