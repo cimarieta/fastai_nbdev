@@ -1,0 +1,14 @@
+md5: 6fce0e3e9b1430a6d6689f6343332932
+cmd: python nlp_b2w_reviews/preprocess.py
+wdir: ..
+deps:
+- md5: 4c6d1945e35feb038ac6e1813e23c17d
+  path: nlp_b2w_reviews/preprocess.py
+- md5: bee0e065dee3735e5b1ec42832e611bd
+  path: data/B2W-Reviews01.csv
+outs:
+- md5: 752b78d2765069523f3e117002cfb050
+  path: data/normalized_reviews.csv
+  cache: true
+  metric: false
+  persist: false
